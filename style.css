@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: rgb(222, 229, 246);
 	color: rgb(30, 146, 235);
 	margin: 200px;
 	margin-top: -80px;
@@ -31,6 +31,16 @@ h1 {
 	background-size: 100%;
 }
 
+body.darkmode {
+	background: black;
+	color: rgb(212, 255, 71);
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+body.darkmode button{
+	color: white;
 
 .desc{
 	font-family: 'Syne Mono', monospace;
@@ -175,3 +185,4 @@ h2 {
     letter-spacing: -0.3rem;
     margin: 95px -30px;
 }
+
